@@ -1,0 +1,37 @@
+html, body {
+	min-height: 100%;
+}
+body {
+	background: $main-bcg;
+	font-family: $font1, $font2, $font3, Arial, Helvetica, 'sans serif';
+
+}
+.clearfix:after {
+	content: ' ';
+	clear: both;
+	height: 0;
+	display: inline-block;
+	overflow: hidden;
+}
+.wrapper {
+	width: 100%;
+	background: $main-bcg;
+}
+.container__main {
+	margin: 0px auto;
+	min-height: 100%;
+	padding-bottom: $footer-height; 
+}
+footer {
+	height: $footer-height;
+	margin-top: -$footer-height ;
+}
+.container {
+	max-width: 1240px;
+	width: 100%;
+	margin: 0px auto;
+	padding: 0px 40px;
+}
+.container__slider {
+	padding-top: 20px;
+}

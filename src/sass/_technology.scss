@@ -1,0 +1,79 @@
+.container__technology {
+	padding-top: 72px;
+	padding-bottom: 83px;
+}
+.technology__block {
+	width: 360px;
+	display: inline-block;
+	margin-right: 35px;
+}
+.technology__block--last {
+	margin-right: 0px;
+}
+.technology__number {
+	float: left;
+	width: 120px;
+	padding-top: 20px;
+	font-family: $font1;
+	color: #e9e9ea;
+	font-size: 90px;
+	font-weight: 500;
+	line-height: 20px;
+
+}
+.technology__content {
+	float: left;
+	width: 240px;
+}
+.technology__img {
+	background: url('../img/sprite.png') no-repeat ;
+	width: 32px;
+	height: 32px;
+}
+
+.technology__img1 {
+	background-position: -150px -266px;
+}
+.technology__img2 {
+	background-position: -192px -266px;
+}
+.technology__img3 {
+	background-position: -234px -269px;
+}
+.technology__title {
+	color: #2a2b2e;
+	font-family: $font1;
+	font-size: 20px;
+	font-weight: 400;
+	padding-top: 10px;
+}
+.content__block {
+	color: #8a8a8a;
+	font-family: Arial;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 20px;
+	padding-top: 20px;
+}
+.arrow__text {
+	display: block;
+	color: #2a2b2e;
+	font-family: $font1;
+	font-size: 13px;
+	font-weight: 500;
+	line-height: 20px;
+	padding-top: 12px;
+	
+		&:hover {
+			color: #248cec;
+		}
+}
+.arrow {
+	display: inline-block;
+	margin-left: 5px;
+	color: #248cec;
+	vertical-align: middle;
+}
+.arrow__text:hover .arrow {
+	color: #2a2b2e;
+}

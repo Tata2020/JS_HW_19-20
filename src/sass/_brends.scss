@@ -1,0 +1,67 @@
+.container__brend {
+	margin: 0px auto;
+}
+.brend__block {
+	padding: 88px 0px;
+}
+.brend__item {
+	display: inline-block;
+    padding-right: 45px;
+}
+.brend__item--last {
+	padding-right: 0px;
+}
+.brend__link {
+	display: block;
+	background: url('../img/brends.png') no-repeat;
+	height: 64px;
+	vertical-align: middle;
+}
+.brend__link--rbp {
+	background-position: -9px -19px;
+	width: 143px;
+	
+		&:hover {
+			background-position: -9px -119px;
+		}
+}
+.brend__link--moto {
+	background-position: -199px -20px;
+	width: 143px;
+	
+		&:hover {
+			background-position: -199px -120px;
+		}	
+}
+.brend__link--crave {
+	background-position: -406px -20px;
+	width: 184px;
+	
+		&:hover {
+			background-position: -406px -120px;
+		}
+}
+.brend__link--atx {
+	background-position: -637px -21px;
+	width: 143px;
+
+		&:hover {
+			background-position: -637px -121px;
+		}
+}
+.brend__link--cruiser {
+	background-position: -839px -21px;
+	width: 143px;
+	
+		&:hover {
+			background-position: -839px -121px;
+		}
+}
+.brend__link--gear {
+	background-position: -1018px -19px;
+	width: 143px;
+	
+		&:hover {
+			background-position: -1018px -119px;
+		}
+}

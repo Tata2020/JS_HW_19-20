@@ -1,0 +1,37 @@
+
+html,
+body  {
+ 	height: 100%;
+}
+.wrapper {
+ 	min-height: 100%;
+}
+
+body {
+	font-family: verdana, arial, sans-serif;
+	background: #cecece;
+}
+.wrapper {
+	width: 100%;
+}
+.skills,
+.names,
+.friends {
+	display: inline-block;
+	width: 30%;
+	vertical-align: top;
+	padding: 10px;
+	border-right: 1px solid #fff;
+
+}
+h3 {
+	color: #555522;
+	font-size: 16px;
+}
+.skills__item,
+.names__item,
+.friends__item {
+	color: #554422;
+	font-size: 14px;
+}
+ 

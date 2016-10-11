@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Script-Type" content="type">
+	<title>Homework 19-20</title>
+	<link rel="stylesheet" href="css/style.css">
+	<script src="https://code.jquery.com/jquery-1.12.4.js" integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU=" crossorigin="anonymous"></script>
+   
+     
+    <script type="text/javascript" src="js/script.min.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container__main">
+            <header>
+            	<div class="container container__logo clearfix">
+                    <a href="#"><img src="img/logo.png"></a>
+@@include('html/social.html') 
+                </div>
+            	<div class="container nav__main clearfix">
+                	<ul class="nav__list"><!--
+            			--><li class="nav__item"><a class="nav__link" href="#">Home</a></li><!--
+            			--><li class="nav__item"><a class="nav__link" href="#">Features</a></li><!--
+            			--><li class="nav__item"><a class="nav__link" href="#">Services</a></li><!--
+            			--><li class="nav__item"><a class="nav__link" href="#">News</a></li><!--
+                        --><li class="nav__item"><a class="nav__link" href="#">Shop</a></li><!--
+                        --><li class="nav__item search__field">
+                                <form action="" method="post" class="search">
+                                      <input type="search" name="" placeholder="Search..." class="search__input" />
+                                      <input type="submit" name="" value="" class="search__submit" />
+                                </form>
+                            </li><!--
+            		--></ul>
+                    
+            	</div>
+            </header>
+            <main>
+@@include('html/slider.html') 
+                <div class="container container__technology">
+                    <div class="technology__block clearfix">
+                        <div class="technology__number">01</div>
+                        <div class="technology__content">
+                            <p class="technology__img technology__img1"></p>
+                            <p class="technology__title">Power Inside</p>
+                            <p class="content__block">Cum sociis natoque penatibus et magnis dis parturient montesmus. Pro vel nibh et elit mollis commodo et nec augueique </p>
+                            <a class="arrow__text" href="#">Read More <span class="arrow">&rarr;</span></a>
+                        </div>
+                    </div>
+                    <div class="technology__block clearfix">
+                        <div class="technology__number">02</div>
+                        <div class="technology__content">
+                            <p class="technology__img technology__img2"></p>
+                            <p class="technology__title">New Technologies</p>
+                            <p class="content__block">Cum sociis natoque penatibus et magnis dis parturient montesmus. Pro vel nibh et elit mollis commodo et nec augueique </p>
+                            <a class="arrow__text" href="#">Read More <span class="arrow">&rarr;</span></a>
+                        </div>
+                    </div>
+                    <div class="technology__block technology__block--last clearfix">
+                        <div class="technology__number">03</div>
+                        <div class="technology__content">
+                            <p class="technology__img technology__img3"></p>
+                            <p class="technology__title">Fast Support</p>
+                            <p class="content__block">Cum sociis natoque penatibus et magnis dis parturient montesmus. Pro vel nibh et elit mollis commodo et nec augueique </p>
+                            <a class="arrow__text" href="#">Read More <span class="arrow">&rarr;</span></a>
+                        </div>
+                    </div>
+                </div>
+@@include('html/service.html')
+<div class="wrapper__news">
+     <div class="container container__news clearfix">                
+@@include('html/news.html')  
+@@include('html/accordion.html')                         
+        
+    </div>
+</div>        
+@@include('html/brend.html')  
+            </main>
+    </div>
+@@include('html/footer.html')
+            
+            
+    </div>
+</body>
+</html>
